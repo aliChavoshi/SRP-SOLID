@@ -48,7 +48,7 @@ namespace Single_Responsibility_Principle
         static void Main(string[] args)
         {
             var report = new WorkReport();
-            report.AddEntry(new WorkReportEntry() { ProjectCode = "1b5", ProjectName = "Identity", SpentHours = 5 });
+            report.AddEntry(new WorkReportEntry() { ProjectCode = "12345", ProjectName = "Identity", SpentHours = 5 });
             report.AddEntry(new WorkReportEntry() { ProjectCode = "8db5", ProjectName = "Logging", SpentHours = 6 });
 
             Console.WriteLine(report.ToString());
